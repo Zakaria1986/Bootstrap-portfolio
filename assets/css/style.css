@@ -19,7 +19,6 @@ a {
 
 /* Header section container used as placeholder for log and navigation. For aligning I have used both flex and grid and stand css */
 .header {
-    /* border-radius: 40px 40px 0px 0px; */
     grid-area: header;
     background-color: rgb(241, 173, 136) !important;
     border-bottom: 10px solid #FC766AFF;
@@ -37,6 +36,7 @@ h1.logo {
 
 /* Styling the link for the logo */
 h1.logo a {
+    padding-left: 30px;
     text-shadow: 1px 6px rgba(252, 118, 106, 0.336);
     text-transform: uppercase;
     color: #783937FF;
@@ -89,15 +89,16 @@ a:hover {
     /* border-radius: 140px 10px 140px 10px; */
     /* background-color: rgb(241, 172, 136, 0.7); */
     background-color: rgb(252, 118, 106, .9);
-    max-width: auto;
+    max-width: 60%;
     align-self: center;
-    height: 300px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/* Styling for the contents on about us section */
 .h2_header,
 .blurb {
     justify-self: center;
@@ -122,36 +123,85 @@ a:hover {
 main h2 {
     padding-bottom: 7px;
     border-bottom: 5px solid #783937FF;
-    font-size: 2.3rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
+/* Rewrote bootstrap bottom border css to match my design, anything above 1400px would apply the following width fo the border  */
+@media (min-width: 1400px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 22.333333% !important;
+    }
+}
 
+/* Screen less than 400 would apply the follow design */
+@media screen and (max-width: 400px) {
+    .about_me div {
+        max-width: 84%;
+    }
+
+    .h2_header,
+    .blurb {
+        line-height: 1rem;
+        align-self: flex-start;
+        padding: 7px 6px;
+        margin: 0 27px;
+        border-left: 4px solid rgb(241, 173, 136);
+    }
+
+    .h2_header {
+        font-size: 0.8rem;
+    }
+
+    .blurb {
+        font-size: 0.6rem;
+    }
+}
 
 /* Contact form below */
 form.container {
     /* background-color: rgba(252, 118, 106, 0.045); */
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    display: flex;
-    flex-flow: column wrap;
-    gap: 20px;
-}
-
-form.container {
-    margin: 5px;
+    margin: 50px 0;
     border-radius: 1vw;
     border-bottom: 10px solid rgba(252, 118, 106, 0.17);
     background-color: rgb(241, 173, 136, 0.1234);
-    padding: 15px;
     border-top: 10px solid #FC766AFF;
+
 }
+
+/* This will apply following css on screen less than 100px */
+@media screen and (max-width: 1000px) {
+    .about_me div {
+        max-width: 84%;
+    }
+
+    .h2_header,
+    .blurb {
+        line-height: 1rem;
+        align-self: flex-start;
+        padding: 7px 6px;
+        margin: 0 27px;
+        border-left: 4px solid rgb(241, 173, 136);
+    }
+
+    .h2_header {
+        font-size: 0.8rem;
+    }
+
+    .blurb {
+        font-size: 0.6rem;
+    }
+}
+
+
 
 form.container h2 {
     margin-bottom: 30px;
 }
 
-form.container {
-    width: 100%;
-}
 
 form.container label {
     font-size: 1.4rem;
@@ -165,7 +215,7 @@ form.container label input {
 
 }
 
-form input[type="submit"] {
+form.container input[type="submit"] {
     background-color: #FC766AFF;
     border: none;
     padding: 10px;
@@ -173,7 +223,7 @@ form input[type="submit"] {
     font-size: 16px;
 }
 
-form input[type="submit"]:hover {
+form.container input[type="submit"]:hover {
     background-color: #F1AC88FF;
 }
 
