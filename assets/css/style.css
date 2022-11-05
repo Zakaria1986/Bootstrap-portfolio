@@ -160,6 +160,38 @@ main h2 {
     }
 }
 
+
+ul {
+    display: flex !important;
+    align-items: baseline;
+
+
+}
+
+/* Rewiriting some of Bootstrap rules to match my reviews templates: https://zakaria1986.github.io/portfolio/ */
+ul a {
+    position: absolute;
+    align-self: end;
+    bottom: 10px;
+    padding: 10px;
+    color: #FFF !important;
+    background-color: #FC766AFF !important;
+    border-color: #FC766AFF !important;
+
+}
+
+
+
+section .card {
+    border-top: 12px solid #FC766AFF;
+
+}
+
+
+
+
+
+
 /* Contact form below */
 form.container {
     /* background-color: rgba(252, 118, 106, 0.045); */
