@@ -16,7 +16,6 @@ a {
 
 /* Setting padding to set same alighmnet for all the body children */
 
-
 /* Header section container used as placeholder for log and navigation. For aligning I have used both flex and grid and stand css */
 .header {
     grid-area: header;
@@ -119,8 +118,9 @@ a:hover {
     color: rgb(249, 249, 249)
 }
 
-/* styleing h2 for the mainsection of the page: portfolio */
-main h2 {
+/* styleing h2 for the main section and the contact section of the page padding and background*/
+main h2,
+section.contact h2 {
     padding-bottom: 7px;
     border-bottom: 5px solid #783937FF;
     margin: auto;
@@ -160,12 +160,9 @@ main h2 {
     }
 }
 
-
 ul {
     display: flex !important;
     align-items: baseline;
-
-
 }
 
 /* Rewiriting some of Bootstrap rules to match my reviews templates: https://zakaria1986.github.io/portfolio/ */
@@ -180,20 +177,29 @@ ul a {
 
 }
 
+/* div ul a:hover {
+    background-color: #FFF;
+    color: #FC766AFF;
+    font-size: 0.85rem;
+    font-weight: bolder;
 
+} */
+
+li:hover,
+div ul a:hover {
+    background-color: rgb(241, 173, 136, 1);
+    color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-size: 1rem;
+}
 
 main section .h-100 {
     border-left: 3px solid #FC766AFF;
 
 }
 
-
-
-
-
-
 /* Contact form below */
-form.container {
+form.contact {
     /* background-color: rgba(252, 118, 106, 0.045); */
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     margin: 50px 0;
@@ -228,18 +234,32 @@ form.container {
     }
 }
 
+/* Contact form section starts here */
+section.contact {
+    margin: 15px auto;
+    border-radius: 1vw;
+    border-bottom: 10px solid rgba(252, 118, 106, 0.17);
+    background-color: rgb(241, 173, 136, 0.1234);
+    padding: 15px;
+    border-top: 10px solid #FC766AFF;
+}
 
+form.row {
+    width: 300px;
+    margin: auto;
+}
 
-form.container h2 {
+form.row h2 {
     margin-bottom: 30px;
 }
 
-
-form.container label {
+form.row label {
     font-size: 1.4rem;
+    margin: 5px 0;
 }
 
-form.container label input {
+/* Seeting height and width for form input boxes */
+form.row label input {
     width: 300px;
     height: 30px;
     display: block;
@@ -247,7 +267,16 @@ form.container label input {
 
 }
 
-form.container input[type="submit"] {
+/* Making area with bit wider */
+form.row label textarea {
+    width: 300px;
+}
+
+
+/* Setting custom padding, submit button */
+form button[type="submit"] {
+    width: 80px;
+    margin: auto;
     background-color: #FC766AFF;
     border: none;
     padding: 10px;
@@ -255,12 +284,13 @@ form.container input[type="submit"] {
     font-size: 16px;
 }
 
-form.container input[type="submit"]:hover {
-    background-color: #F1AC88FF;
+form button[type="submit"]:hover {
+    background-color: rgb(241, 173, 136);
 }
 
-/* Css for footer bolow */
 
+
+/* Css for footer bolow */
 /* Flex is used to align footer items to center */
 .footer {
     background-color: rgb(241, 173, 136);
@@ -268,7 +298,6 @@ form.container input[type="submit"]:hover {
     border-top: 10px solid #FC766AFF;
     height: 100px;
 }
-
 
 .footer a {
     align-self: center;
