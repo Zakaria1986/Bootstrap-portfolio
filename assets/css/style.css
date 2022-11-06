@@ -182,8 +182,8 @@ ul a {
 
 
 
-section .card {
-    border-top: 12px solid #FC766AFF;
+main section .h-100 {
+    border-left: 3px solid #FC766AFF;
 
 }
 
