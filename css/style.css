@@ -99,7 +99,7 @@ a:hover {
 }
 
 img.rounded-circle {
-    justify-self: center;
+
     width: 150px !important;
     height: 150px !important;
     margin: 0 50px 20px 50px;
@@ -173,6 +173,13 @@ div ul a:hover {
 main section .h-100 {
     border-left: 3px solid #FC766AFF;
 
+}
+
+
+section.skills {
+    background-image: url(/img/programming-web-banner-best-programming-languages-technology-process-software-development-programming-web-banner-159274390.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat
 }
 
 /* Contact form below */
