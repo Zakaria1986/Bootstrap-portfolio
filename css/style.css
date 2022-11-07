@@ -175,6 +175,10 @@ main section .h-100 {
 
 }
 
+main section .card img {
+    height: 200px !important;
+}
+
 
 section.skills {
     background-image: url(../img/programming-web-banner-best-programming-languages-technology-process-software-development-programming-web-banner-159274390.jpeg);
