@@ -13,9 +13,17 @@ Github repo: https://github.com/Zakaria1986/portfolio/blob/main/README.md
         - Flex
         - Grid
     - Bootstrap 
-    ![](img/about_me.jpeg)
+    
+
+
+
+![alt text](https://zakaria1986.github.io/Bootstrap-portfolio/img/web.jpeg?raw=true)
+
+
 
  ## Project name: `Bootstrap-Portfolio`
+
+ ### Project live page: https://zakaria1986.github.io/Bootstrap-portfolio/#portfolios
 
    
    - File and folder structure:
@@ -47,3 +55,5 @@ This site is a showcase of Bootstrap a CSS library used for ease of designing fr
     While Flex and grid is used to achive the dynamic lyout and responsive web side, however using bootstrap we have achieved the responsiness in this project with minimal coding. 
     
     Thank you for reading and enjoy browsing!
+
+[def]: img/about_me.jpeg
