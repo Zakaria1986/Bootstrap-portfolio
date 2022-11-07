@@ -35,7 +35,7 @@ Github repo: https://github.com/Zakaria1986/portfolio/blob/main/README.md
 
 
 
-![alt text](/img/bootstrap_profile.gif)
+![alt text](/img/bootstraip-pro2.gif)
 
 
 
