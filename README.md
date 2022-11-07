@@ -8,6 +8,18 @@ Aim of this project is to recreate custom written portfolio from previouse week 
 
 
 
+
+
+![alt text](/img/projectsec.png)
+
+
+
+
+
+![alt text](/img/cont_footer.png)
+
+
+
 Can be viewed here:
 Live page: https://zakaria1986.github.io/portfolio/
 Github repo: https://github.com/Zakaria1986/portfolio/blob/main/README.md
@@ -19,6 +31,14 @@ Github repo: https://github.com/Zakaria1986/portfolio/blob/main/README.md
         - Flex
         - Grid
     - Bootstrap 
+    
+
+
+
+![alt text](/img/bootstrap_profile.gif)
+
+
+
     
 
  ## Project name: `Bootstrap-Portfolio`
