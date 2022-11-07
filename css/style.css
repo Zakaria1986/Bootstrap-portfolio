@@ -192,7 +192,7 @@ section.skills {
 }
 
 /* Contact form below */
-form.contact {
+div.contact {
     /* background-color: rgba(252, 118, 106, 0.045); */
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     margin: 50px 0;
@@ -200,12 +200,26 @@ form.contact {
     border-bottom: 10px solid rgba(252, 118, 106, 0.17);
     background-color: rgb(241, 173, 136, 0.1234);
     border-top: 10px solid #FC766AFF;
+    opacity: .1;
 
 }
 
 
 
-/* Contact form section starts here */
+/* About me and Contact form section starts here */
+
+/* Setting background to the contact us section of the page */
+div.form {
+    background-color: rgb(241 173 136 / 18%);
+}
+
+div.aboutme {
+    background-color: rgb(252 118 106 / 18%);
+    color: #000;
+
+}
+
+
 section.contact {
     margin: 15px auto;
     border-radius: 1vw;
