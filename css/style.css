@@ -179,6 +179,11 @@ main section .card img {
     height: 200px !important;
 }
 
+/* Adding hover state to the card in profile section and the skill section */
+div.card:hover {
+    box-shadow: -5px -2px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
 
 section.skills {
     background-image: url(../img/programming-web-banner-best-programming-languages-technology-process-software-development-programming-web-banner-159274390.jpeg);
