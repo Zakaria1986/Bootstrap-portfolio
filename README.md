@@ -2,6 +2,12 @@
 
 Aim of this project is to recreate custom written portfolio from previouse week challange as part of bootcamp requirement. Site was building implementing HTML, CSS Flex and Grid. 
 
+
+
+![alt text](/img/headsect.png)
+
+
+
 Can be viewed here:
 Live page: https://zakaria1986.github.io/portfolio/
 Github repo: https://github.com/Zakaria1986/portfolio/blob/main/README.md
@@ -14,12 +20,6 @@ Github repo: https://github.com/Zakaria1986/portfolio/blob/main/README.md
         - Grid
     - Bootstrap 
     
-
-
-
-![alt text](/img/web.jpeg)
-
-
 
  ## Project name: `Bootstrap-Portfolio`
 
