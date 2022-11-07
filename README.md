@@ -17,7 +17,7 @@ Github repo: https://github.com/Zakaria1986/portfolio/blob/main/README.md
 
 
 
-![alt text](https://zakaria1986.github.io/Bootstrap-portfolio/img/web.jpeg?raw=true)
+![alt text](/img/web.jpeg)
 
 
 
