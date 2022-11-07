@@ -154,14 +154,6 @@ ul a {
 
 }
 
-/* div ul a:hover {
-    background-color: #FFF;
-    color: #FC766AFF;
-    font-size: 0.85rem;
-    font-weight: bolder;
-
-} */
-
 li:hover,
 div ul a:hover {
     background-color: rgb(241, 173, 136, 1);
@@ -204,8 +196,6 @@ div.contact {
 
 }
 
-
-
 /* About me and Contact form section starts here */
 
 /* Setting background to the contact us section of the page */
@@ -219,14 +209,13 @@ div.aboutme {
 
 }
 
-
 section.contact {
     margin: 15px auto;
     border-radius: 1vw;
-    border-bottom: 10px solid rgba(252, 118, 106, 0.17);
+    /* border-bottom: 10px solid rgba(252, 118, 106, 0.17);
     background-color: rgb(241, 173, 136, 0.1234);
     padding: 15px;
-    border-top: 10px solid #FC766AFF;
+    border-top: 10px solid #FC766AFF; */
 }
 
 form.row {
@@ -257,7 +246,6 @@ form.row label textarea {
     width: 300px;
 }
 
-
 /* Setting custom padding, submit button */
 form button[type="submit"] {
     width: 80px;
@@ -272,8 +260,6 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: rgb(241, 173, 136);
 }
-
-
 
 /* Css for footer bolow */
 /* Flex is used to align footer items to center */
