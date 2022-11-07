@@ -78,7 +78,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     /* background: url(/assets/img/web.jpeg) no-repeat; */
-    background-image: url(../img/mern-stack-wallpapers.jpeg);
+    background-image: url(img/mern-stack-wallpapers.jpeg);
     background-size: cover;
     height: 300px;
     border-bottom: 10px solid rgba(252, 118, 106, 0.174);
